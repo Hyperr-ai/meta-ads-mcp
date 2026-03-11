@@ -4,7 +4,5 @@ dockerfilePath = "Dockerfile"
 
 [deploy]
 startCommand = "python -m meta_ads_mcp --transport streamable-http --host 0.0.0.0 --port 8080"
-healthcheckPath = "/mcp/"
-healthcheckTimeout = 100
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 3
