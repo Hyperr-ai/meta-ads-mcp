@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+.github
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+.pytest_cache
+.coverage
+htmlcov
+
+# Tests
+tests
+examples
+
+# Documentation
+*.md
+!README.md
+images
+
+# Development
+.venv
+venv
+.env
+.env.local
+poetry.lock
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
